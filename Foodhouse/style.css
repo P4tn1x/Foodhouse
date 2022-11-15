@@ -1,0 +1,1077 @@
+/*------------------------------------------------------*/
+body{ /* celá stránka  bude mať svetlo sive pozadie */
+	background: #E5E5E5;
+}
+
+/*-------------------------------------------------------*/
+
+.obdlz{ /* cierny obdlznik na zaciatku*/
+	height: 914px;
+	width: 1920px;
+	left: 0px;
+	top: -2px;
+	border-radius: 0px;
+	background: #1E1E1E;
+}
+
+
+.pozadie{ /*pozadie na ciernom obdlzniku*/
+	position: absolute;
+	width: 1920px;
+	height: 912px;
+	left: 0px;
+}
+
+header nav{ /* menu stranky*/
+	position: absolute;
+	width: 1320px;
+	height: 32px;
+	left: 300px;
+	top: 40px;
+}
+
+.nazov{ /* nazov (foodhouse)*/
+	position: absolute;
+	left: 0%;
+	right: 91.74%;
+	top: 0%;
+	bottom: 0%;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+
+	color: #FFFFFF;
+}
+
+.navbar{ /* samotné menu */
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	position: absolute;
+	left: 451px;
+	right: 361px;
+	top: 4px;
+	bottom: 4px;
+}
+
+.phont{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #FFFFFF;
+}
+
+.flexklaska{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.kuchari{
+	color: #333333;
+}
+
+.kuchmena{
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 28px;
+
+	color: #333333;
+}
+
+.home{ /* domov button*/
+
+	left: 34.17%;
+	right: 62.35%;
+	top: 12.5%;
+	bottom: 12.5%;
+
+	color: #00ccd3;
+}
+
+.menu{ /* menu button */
+	left: 40.08%;
+	right: 56.67%;
+	top: 12.5%;
+	bottom: 12.5%;
+}
+
+.blog{ /* blog button */
+
+	left: 45.76%;
+	right: 51.67%;
+	top: 12.5%;
+	bottom: 12.5%;
+
+}
+
+.pages{ /* pagges button */
+
+	left: 50.76%;
+	right: 45.68%;
+	top: 12.5%;
+	bottom: 12.5%;
+
+}
+
+.about{ /* about button */
+
+	left: 56.74%;
+	right: 39.77%;
+	top: 12.5%;
+	bottom: 12.5%;
+
+}
+
+.shop{ /* shop button */
+
+	left: 62.65%;
+	right: 34.39%;
+	top: 12.5%;
+	bottom: 12.5%;
+
+}
+
+.contact{ /* contact button */
+
+	left: 68.03%;
+	right: 27.35%;
+	top: 12.5%;
+	bottom: 12.5%;
+
+}
+
+.kockafotka{
+	box-sizing: border-box;
+
+	z-index: 900; /* poradia v ktorom bude element, tentokrat bude pod obrazkom*/
+
+	position: absolute;
+	width: 539px;
+	height: 588px;
+	left: 1042px;
+	top: 163px;
+
+	border: 1px solid #00ccd3;
+}
+
+.mainfotka{
+	box-sizing: border-box;
+
+	z-index: 950;
+
+	position: absolute;
+	width: 536px;
+	height: 596px;
+	left: 1084px;
+	top: 195px;
+}
+
+/*-------------------------------------*/
+
+.textpole{
+
+	position: absolute;
+	width: 428px;
+	height: 350px;
+	left: 304px;
+	top: 280px;
+}
+
+.coffeehut{
+	width: 226px;
+	height: 34px;
+	left: 304px;
+	top: 280px;
+
+	border: 1px solid #00ccd3;
+}
+
+header section article div{
+
+	margin: 5px 27.5px 5px 27.5px;
+
+	text-align: center;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #FFFFFF;
+}
+
+
+.maintext{
+	left: 15.83%;
+	right: 61.88%;
+	top: 4.12%;
+	bottom: 94.15%;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 68px;
+
+	color: #00ccd3;
+}
+
+.subtext{
+	left: 15.83%;
+	right: 62.4%;
+	top: 6.26%;
+	bottom: 93.12%;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #FFFFFF;
+}
+
+
+.buttony{
+	height: 60px;
+	width: 400px;
+	left: 305px;
+	top: 570px;
+	border-radius: 0px;
+	margin-top: 32px;
+
+}
+
+.menubutton{
+	float: right;
+	height: 60px;
+	width: 190px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 55px;
+	text-align: center;
+
+	color: #00ccd3;
+	border: 1px solid #00ccd3;
+}
+
+.orderbutton{
+	height: 60px;
+	width: 190px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 55px;
+	text-align: center;
+
+	color: #FFFFFF;
+	background: #00ccd3;
+}
+
+.rastlina{
+	position: absolute;
+	width: 263px;
+	height: 323px;
+	left: -14px;
+	top: 589px;
+
+	opacity: 0.5;
+}
+
+.z1{
+	position: absolute;
+	height: 74.51px;
+	width: 59.39px;
+	left: 823px;
+	top: 210px;
+
+	transform: rotate(-35.3deg);
+}
+
+.z2{	
+	position: absolute;
+	width: 59.39px;
+	height: 74.51px;
+	left: 736px;
+	top: 450.32px;
+
+	transform: rotate(-35.3deg);
+}
+
+.z3{
+	position: absolute;
+	width: 59.39px;
+	height: 74.51px;
+	left: 909px;
+	top: 428.32px;
+
+	transform: rotate(-35.3deg);
+}
+
+.z4{
+
+	position: absolute;
+	width: 59.39px;
+	height: 74.51px;
+	left: 926px;
+	top: 642.32px;
+
+	transform: rotate(-35.3deg);
+}
+
+.kruzky{
+
+	position: absolute;
+
+	width: 49px;
+	height: 14px;
+	left: 936px;
+	top: 851px;
+}
+
+.bocnekruhy{
+	width: 8.17px;
+	height: 8.17px;
+
+	border-radius: 50%;
+
+	background: #00918F;
+}
+
+.lavykruh{
+	float: left;
+	margin-right: 9.83px;
+}
+
+.stredkruh{
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	top: -4px;
+
+	border-radius: 50%;
+
+	background: #00ccd3;
+}
+
+.pravykruh{
+	float: right;
+}
+
+/*---------------------------------*/
+
+main{
+	height: 3485px;
+	width: 1920px;
+}
+
+.aboutus{
+	position: absolute;
+	width: 1367px;
+	height: 720px;
+	left: 253px;
+	top: 1032px;
+}
+
+.images{
+	width: 762.12px;
+	height: 720px;
+	left: 253px;
+	top: 1032px;
+}
+
+.kavadown{
+	width: 573px;
+	height: 642.73px;
+	left: 304px;
+	top: 1032px;
+}
+
+.kavaup{
+	position: absolute;
+	width: 475px;
+	height: 357.15px;
+	left: -49px;
+	top: 357.8px;
+
+}
+
+
+.aboutustext{
+	width: 536px;
+	height: 520px;
+	left: 1084px;
+	top: 1132px;
+}
+
+.aboutusp{	
+	position: absolute;
+	left: 56.51%;
+	right: 39.74%;
+	top: 14.47%;
+	bottom: 85.2%;
+	width: 72px;
+	height: 26px;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+
+	color: #333333;
+}
+
+.aboutusmaintext{
+	position: absolute;
+	left: 56.46%;
+	right: 15.62%;
+	top: 14.94%;
+	bottom: 83.63%;
+
+	height: 112px;
+	width: 536px;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 56px;
+
+	color: #333333;
+}
+
+.aboutuslorem{
+	position: absolute;
+	left: 772px;
+	top: 267px;
+
+	height: 96px;
+	width: 536px;
+	margin-bottom: 34px;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #4F4F4F;
+}
+
+.expchefs{
+	position: absolute;
+	left: 62.01%;
+	right: 6.5%;
+	top: 54.4%;
+	bottom: 165.2%;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 26px;
+
+	color: #4F4F4F;
+}
+
+.expchefskruh{
+	position: absolute;
+	width: 34px;
+	height: 34px;
+	left: 800px;
+	top: 404px;
+	border: 1px solid #00918F;
+	border-radius: 50%;
+}
+
+.organicfoods{
+	position: absolute;
+	left: 62.01%;
+	right: 6.5%;
+	top: 61.04%;
+	bottom: 159.02%%;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 26px;
+
+	color: #4F4F4F;
+}
+
+.organicfoodskruh{
+	position: absolute;
+	width: 34px;
+	height: 34px;
+	left: 800px;
+	top: 453px;
+	border: 1px solid #00ccd3;
+
+	border-radius: 50%;
+
+}
+
+.coffedrinks{
+	position: absolute;
+	left: 62.01%;
+	right: 6.5%;
+	top: 68.04%;
+	bottom: 80.06%;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 26px;
+
+	color: #4F4F4F;
+}
+
+.coffedrinkskruh{
+	position: absolute;
+	width: 34px;
+	height: 34px;
+	left: 800px;
+	top: 502px;
+
+	border: 1px solid #00918F;
+	border-radius: 50%;
+}
+
+.learnmore{
+	padding: 16px 48px;
+
+	position: absolute;
+	width: 229px;
+	height: 58px;
+	left: 793px;
+	top: 536px;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 26px;
+	color: #FFFFFF;
+
+	background: #00918F;
+	border-radius: 6px;
+}
+/*------------------------------------*/
+
+.menumain{
+	position: absolute;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr 1fr 3fr 3fr 1fr; 
+
+	width: 1320px;
+	height: 876px;
+	left: 300px;
+	top: 1872px;
+}
+
+.menunazov{
+	width: 1320px;
+	height: 56px;
+
+	grid-column: 1/5;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 56px;
+
+	color: #333333;
+}
+
+.menusubtext{
+	height: 48px;
+	width: 1320px;
+
+	grid-column: 1/5;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	text-align: center;
+	color: #4F4F4F;
+}
+
+.sidemenu{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	column-gap: 5px;
+	width: 312px;
+	height: 552px;
+
+	background-color: #00ccd3;
+
+	grid-column: 1/2;
+	grid-row: 3/5;
+}
+
+.beansfont{
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 28px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	color: #333333;
+}
+
+
+
+.beans1{
+	width: 312px;
+	height: 309px;
+	grid-column: 2/3;
+	grid-row: 3;
+
+}
+
+.kavabeans1{
+	width: 312px;
+	height: 215px;
+}
+
+.beans5{
+	width: 312px;
+	height: 309px;
+	grid-column: 3/4;
+	grid-row: 3/4
+}
+
+.beans6{
+	width: 312px;
+	height: 309px;
+	grid-column: 4/5;
+	grid-row: 3/4
+}
+
+.beans2{
+	width: 312px;
+	height: 309px;
+	grid-column-start: 2;
+	grid-row: 4; 
+}
+
+.beans3{
+	width: 312px;
+	height: 309px;
+	grid-column-start: 3;
+	grid-row: 4;
+}
+
+.beans4{
+	width: 312px;
+	height: 309px;
+	grid-column-start: 4;
+	grid-row: 4;
+}
+
+
+.sidemenu span{
+	left: 27px;
+
+	position: absolute;
+	width: 258px;
+	height: 79px;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 28px;
+
+	text-align: center;
+}
+
+.americano{
+	background-color: white;
+	color: #4F4F4F;
+	top: 188px;
+}
+
+.esperesso{
+	color: white;
+	background-color: #00918F;
+	top: 291px;
+}
+
+.arabica{
+	background-color: white;
+	color: #4F4F4F;
+	top: 394px;
+}
+
+.stimy{
+	background-color: white;
+	color: #4F4F4F;
+	top: 497px;
+}
+
+.pack{
+	background-color: white;
+	color: #4F4F4F;
+	top: 600px;
+}
+/*-------------------------------------*/
+
+.chefs{
+	position: absolute;
+	width: 1320px;
+	height: 550px;
+	left: 304px;
+	top: 2866px;
+
+	display: grid;
+	grid-template-rows: 1fr 1fr 2fr 1fr;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.chefsmaintext{
+	grid-column: span 4;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 56px;
+
+	font-feature-settings: 'kern' off;
+
+	color: #333333;
+}
+
+.chefssubtext{
+	grid-column: span 4;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	text-align: center;
+
+	color: #4F4F4F;
+}
+
+.chefs span{
+	width: 312px;
+	height: 382px;
+}
+
+/*------------------------------*/
+
+.testimonials{
+	position: absolute;
+	width: 1320px;
+	height: 622px;
+	left: 305px;
+	top: 3535px;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.testibg{
+	grid-column: 1/3;
+	column-span: 2;
+	width: 100%;
+	height: 100%;
+
+}
+
+.testitext{
+	position: absolute;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+
+	grid-column: 1/2;
+
+	width: 100%;
+	height: 100%;
+
+	background: #1E1E1E;
+}
+
+.testitextbg{
+	width: 100%
+	height: 100%;
+}
+
+.testinazov{
+	width: 105.96px;
+	height: 25.84px;
+
+	position: absolute;
+	left: 280px;
+	right: 934px;
+	top: 67.57px;
+	bottom: 528.59px;
+}
+
+.testisub{
+	width: 500px;
+	height: 56px;
+
+	position: absolute;
+	left: 124px;
+	top: 93px;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 56px;
+
+
+	color: #FFFFFF;
+}
+
+.testimaintext{
+	width: 513px;
+	height: 104px;
+
+	position: absolute;
+	left: 72px;
+	top: 250px;
+
+	text-align: center;
+}
+
+.profilovka{
+	width: 72px;
+	height: 72px;
+
+	position: absolute;
+	left: 293px;
+	top: 378px;
+}
+
+.profilkameno{
+	width: 160px;
+	height: 32px;
+
+	position: absolute;
+	left: 254px;
+	top: 474px;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+
+	color: #FFFFFF;
+}
+
+.profilkapraca{
+	width: 130px;
+	height: 26px;
+
+	position: absolute;
+	left: 264px;
+	top: 514px;
+	text-align: center;
+}
+/*-------------------------------*/
+
+.clients{
+	position: absolute;
+	width: 1320px;
+	height: 299px;
+	left: 300px;
+	top: 4277px;
+
+	display: grid;
+	grid-template-columns: repeat(6, 2fr);
+	grid-template-rows: 1fr 1fr 3fr;
+
+	border: 1px solid black;
+}
+
+.clientmain{
+	grid-column: 3/5;
+	column-span: 2;
+
+	font-family: 'Miniver';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+
+	color: #00ccd3;
+	}
+
+.clientsub{
+	grid-column: 3/5;
+	column-span: 2;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 56px;
+
+	color: #333333;
+	 
+}
+
+.loga{
+	grid-row-start: 3;
+	width: 100%;
+	height: 100%;
+}
+/*-------------------------------*/
+
+footer{
+	position: absolute;
+	width: 1920px;
+	height: 564px;
+	left: 0px;
+	top: 4843px;
+	background-color: gray;
+}
+
+footer form{
+	position: absolute;
+	width: 1320px;
+	height: 240px;
+	left: 300px;
+	bottom: 460.99px;
+
+	background-color: white;
+}
+
+.newsletter{
+	position: absolute;
+	height: 80px;
+	width: 274px;
+	left: 80px;
+	top: 80px;
+	margin-right: 91px;
+
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+
+	color: #333333;
+}
+
+.mailik{
+
+	box-sizing: border-box;
+
+	position: absolute;
+	left: 33.71%;
+	right: 23.94%;
+	top: 37.92%;
+	bottom: 38.75%;
+
+	height: 56px;
+	width: 559px;
+	border-color: #00ccd3;
+}
+
+.mailes{
+	width: 346px;
+	height: 51px;
+	border-color: #00ccd3;
+	color: #00ccd3;
+
+}
+
+.sub{
+	width: 193px;
+	height: 56px;
+	float: right;
+	color: white;
+	background-color: #00ccd3;
+}
+
+
+.futer{
+	position: absolute;
+	width: 2006.24px;
+	height: 580.99px;
+	left: 0px;
+	top: 7258px;
+
+	z-index: 950;
+}
+
+.futerbg{
+	width: 1920px;
+	height: 564px
+}
+
+.listok{
+	position: absolute;
+	width: 325.31px;
+	height: 195.64px;
+	left: 1647.2px;
+	top: 256px;
+
+	transform: rotate(26.15deg);
+}
+
+.textl{
+	width: 382px;
+	height: 126.8px;
+}
+
+.copyrajt{
+	height: 100px;
+	width: 1920px;
+
+	position: absolute;
+	left: 0px;
+	top: -6809px;
+
+	background-color: #00ccd3;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #FFFFFF;
+
+}
